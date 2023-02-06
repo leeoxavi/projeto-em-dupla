@@ -1,0 +1,17 @@
+ <link rel="stylesheet" href="/css/css/css/style.css">
+
+<h1>edite o Produto:</h1>
+<form action="/estudantes/updateestudante" method="POST" class="form11">    
+    <input type="hidden" name="id" value="{{estudante.id}}"><!-- aqui recebemos um input, mas o hidden não exibe. -->
+   
+    <div class="form-control11">
+        <label for="title">Sabor da Pizza</label>
+        <input type="text" name="name" id="name" placeholder="Digite o nome do estudante" value="{{estudante.nome}}">
+    </div>
+
+    <div class="form-control11">
+        <label for="serie">Preço da Pizza</label>
+        <input type="text" name="serie" id="serie" placeholder="Qual a série do Estudante" value="{{estudante.serie}}">
+    </div>
+    <input type="submit" value="editar">
+</form>

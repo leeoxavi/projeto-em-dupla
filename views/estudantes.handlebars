@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/css/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+<h1 class="produtos1">Produtos Cadastrados</h1> 
+
+<div class="estudantes-container"><a href="/"> ADICIONAR  PRODUTOS</a>{{#each estudantes}}
+
+    <div class="est1">
+      {{this.id}} - <span class="bold">
+          Sabor :<a href="/estudantes/{{this.id}}" class="est2">  {{this.nome}}</a><br>
+          Preço : </span>{{this.serie}}  
+    </div>
+    {{/each}}
+
+
+</div>
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,103 @@
+ <link rel="stylesheet" href="/contato.css">
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+        <img src="/img/images/menu-icon.png" alt="menu icon">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand logo"href="/index"><img src="/img/images/logo.png" alt="logo of pizza house" width="70%" ></a>
+      <span class="navbar-brand navbar-text"> <a href="#"></a> Pizzas Programa.</span>
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav ml-lg-auto">
+
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/servicos">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/estudantes">Adicionar Sabor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contato">Contato</a>
+          </li>
+          <li id="reserve-button">
+            <button onclick="submit()" id="reserve" class="btn reserve-btn">Reserve sua mesa</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<div class="formulario">        
+
+  <form id="form" class="form">
+      <div class="form-control">
+          <label for="username">Nome</label>
+          <input type="text" id="#" placeholder="Digite seu nome...">
+      </div>
+      
+      <div class="form-control">
+          <label for="username">CPF</label>
+          <input type="number" id="#" name="msg" placeholder="Digite seu CPF...">
+      </div>
+
+      <div class="form-control">
+          <label for="username">E-MAIL</label>
+          <input type="text" id="#" name="msg" placeholder="Digite seu E-MAIL...">
+      </div>
+
+      <div class="form-control">
+          <label for="username">Telefone</label>
+          <input type="number" id="#" name="msg" placeholder="Digite seu Telefone...">
+      </div>
+
+      <label for="estado" class="estado">Estado onde mora</label>
+      <select id="estado" name="estado">
+          <option value="AC">AC</option>
+          <option value="AL">AL</option>
+          <option value="AP">AP</option>
+          <option value="AM">AM</option>
+          <option value="BA">BA</option>
+          <option value="CE">CE</option>
+          <option value="DF">DF</option>
+          <option value="ES">ES</option>
+          <option value="GO">GO</option>
+          <option value="MA">MA</option>
+          <option value="MT">MT</option>
+          <option value="MS">MS</option>
+          <option value="MG">MG</option>
+          <option value="PA">PA</option>
+          <option value="PB">PB</option>
+          <option value="PR">PR</option>
+          <option value="PE">PE</option>
+          <option value="PI">PI</option>
+          <option value="RJ">RJ</option>
+          <option value="RN">RN</option>
+          <option value="RS">RS</option>
+          <option value="RO">RO</option>
+          <option value="RR">RR</option>
+          <option value="SC">SC</option>
+          <option value="SP">SP</option>
+          <option value="SE">SE</option>
+          <option value="TO">TO</option>
+         
+      </select>
+      <br><br><br>
+      <label for="msg">Mensagem</label><br>
+      <textarea id="msg" name="msg" rows="5" cols="70"></textarea>
+      <br>
+      <input type="reset" value="Reset">
+      <input type="submit" value="Enviar" id="enviar">    
+
+
+
+  </div>
+</form>    
+</div>
+</div> 
+</body>
+</html>
